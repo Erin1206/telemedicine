@@ -1,0 +1,112 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/yuanyuan/Library/CloudStorage/OneDrive-南京大学/Gu_ToDo/Telemedicine/Telemedicine-master/FewaTelemedicine/FewaTelemedicine.csproj": {}
+  },
+  "projects": {
+    "/Users/yuanyuan/Library/CloudStorage/OneDrive-南京大学/Gu_ToDo/Telemedicine/Telemedicine-master/FewaTelemedicine/FewaTelemedicine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/yuanyuan/Library/CloudStorage/OneDrive-南京大学/Gu_ToDo/Telemedicine/Telemedicine-master/FewaTelemedicine/FewaTelemedicine.csproj",
+        "projectName": "FewaTelemedicine",
+        "projectPath": "/Users/yuanyuan/Library/CloudStorage/OneDrive-南京大学/Gu_ToDo/Telemedicine/Telemedicine-master/FewaTelemedicine/FewaTelemedicine.csproj",
+        "packagesPath": "/Users/yuanyuan/.nuget/packages/",
+        "outputPath": "/Users/yuanyuan/Library/CloudStorage/OneDrive-南京大学/Gu_ToDo/Telemedicine/Telemedicine-master/FewaTelemedicine/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/yuanyuan/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "include": "None",
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.14.1, )"
+            },
+            "Twilio.AspNet.Common": {
+              "target": "Package",
+              "version": "[5.33.1, )"
+            },
+            "Twilio.AspNet.Core": {
+              "target": "Package",
+              "version": "[5.33.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.426/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
